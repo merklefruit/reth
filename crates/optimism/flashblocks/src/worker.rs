@@ -1,3 +1,5 @@
+//! Worker for building flashblocks.
+
 use crate::ExecutionPayloadBaseV1;
 use alloy_eips::{eip2718::WithEncoded, BlockNumberOrTag};
 use alloy_primitives::B256;

@@ -12,8 +12,8 @@ pub use consensus::FlashBlockConsensusClient;
 pub mod payload;
 mod sequence;
 pub use sequence::FlashBlockCompleteSequence;
-mod service;
-mod worker;
+pub mod service;
+pub mod worker;
 mod ws;
 
 /// Receiver of the most recent [`PendingBlock`] built out of [`FlashBlock`]s.

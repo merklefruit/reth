@@ -1,3 +1,5 @@
+//! Service for building flashblocks.
+
 use crate::{
     sequence::FlashBlockPendingSequence,
     worker::{BuildArgs, FlashBlockBuilder},
