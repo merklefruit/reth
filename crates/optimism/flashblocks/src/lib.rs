@@ -9,7 +9,7 @@ pub use ws::{WsConnect, WsFlashBlockStream};
 
 mod consensus;
 pub use consensus::FlashBlockConsensusClient;
-mod payload;
+pub mod payload;
 mod sequence;
 pub use sequence::FlashBlockCompleteSequence;
 mod service;
