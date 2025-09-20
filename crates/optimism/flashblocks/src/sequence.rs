@@ -1,3 +1,5 @@
+//! Sequence of flashblocks.
+
 use crate::{ExecutionPayloadBaseV1, FlashBlock, FlashBlockCompleteSequenceRx};
 use alloy_eips::eip2718::WithEncoded;
 use core::mem;

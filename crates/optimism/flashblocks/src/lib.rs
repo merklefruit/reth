@@ -10,11 +10,11 @@ pub use ws::{WsConnect, WsFlashBlockStream};
 mod consensus;
 pub use consensus::FlashBlockConsensusClient;
 pub mod payload;
-mod sequence;
+pub mod sequence;
 pub use sequence::FlashBlockCompleteSequence;
 pub mod service;
 pub mod worker;
-mod ws;
+pub mod ws;
 
 /// Receiver of the most recent [`PendingBlock`] built out of [`FlashBlock`]s.
 ///
